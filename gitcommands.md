@@ -13,7 +13,8 @@ git config --global user.name  "nombre de usuario"
 ```bash
 git config --global credential.helper "store"
 ```
-****
+
+
 ### Comandos de git para gestionar repositorios:
 ****
 **Iniciar un nuevo repositorio:**
