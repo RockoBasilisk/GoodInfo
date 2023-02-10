@@ -1,10 +1,11 @@
-**Configurar nombre de usuario e email para firmar los commits y guardar las credenciales de acceso:**
+**Configurar nombre de usuario e email para firmar los commits:**
 ```bash
 $ git config --global user.email "example@gmail.com"
 ```
 ```bash
 $ git config --global user.name "UserName"
 ```
+**Guardar las credenciales de acceso:**
 ```bash
 $ git config --global credential.helper "store"
 ```
