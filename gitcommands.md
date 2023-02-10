@@ -1,9 +1,12 @@
-**Configurar nombre de usuario e email para firmar los commits:**
+**Configurar nombre de usuario e email para firmar los commits y guardar las credenciales de acceso:**
 ```bash
 $ git config --global user.email "example@gmail.com"
 ```
 ```bash
 $ git config --global user.name "UserName"
+```
+```bash
+$ git config --global credential.helper "store"
 ```
 ****
 **Iniciar un nuevo repositorio:**
@@ -30,6 +33,10 @@ $ git log
 ```bash
 $ git commit -m "Nuevo mensaje del commit" --amend
 ```
+**Agregar repositorio remoto:**
+```bash
+$ git remote add origin <url>
+```
 ****
 **Crear nueva rama a partir de la activa**
 ```bash
@@ -54,4 +61,9 @@ $ git branch -m <nombre de la rama> <nuevo nombre>
 **Eliminar una rama:**
 ```bash
 $ git branch -d <nombre de la rama>
+```
+****
+**Enviar cambios al repositorio remoto:**
+```bash
+$ git push -u origin <nombre de la rama>
 ```
