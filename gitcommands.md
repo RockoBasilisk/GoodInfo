@@ -1,4 +1,4 @@
-# ## Comandos Git CLI
+## Comandos Git CLI
 ### Comandos de configuración general
 ****
 **Establecer de forma global el email de git:**
