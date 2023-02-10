@@ -1,2 +1,2 @@
 # GoodInfo
-Just some things
+Just some lazy things
