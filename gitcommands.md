@@ -29,6 +29,14 @@ ssh-keygen -t ed25519 -C "example@gmail.com"
 
 ### Comandos de git para gestionar repositorios:
 ****
+**Clonar repositorio remoto usando SSH:**
+```bash
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+```
+**Clonar repositorio remoto usando HTTPS:**
+```bash
+git clone https://github.com/USER-NAME/REPOSITORY-NAME.git
+```
 **Iniciar un nuevo repositorio:**
 ```bash
 git init
@@ -41,4 +49,5 @@ git status
 ```bash
 git add <archivo o directorio>
 ```
+
 ****
