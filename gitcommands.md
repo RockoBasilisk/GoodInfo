@@ -7,7 +7,7 @@ git config --global user.email "example@gmail.com"
 ```
 **Establecer de forma global el email privado de Github:**
 ```bash
-git config --global user.email "<12345678>+<github_user>@users.noreply.github.com"
+git config --global user.email "12345678+example@users.noreply.github.com"
 ```
 **Establecer de forma global el nombre de usuario de Github:**
 ```bash
