@@ -49,5 +49,13 @@ git status
 ```bash
 git add <archivo o directorio>
 ```
+**Guardar los cambios realizados en el repositorio:**
+```bash
+git commit -m "Informacion sobre el commit"
+```
+**Subir los cambios al repositorio remoto:**
+```bash
+git push
+```
 
 ****
